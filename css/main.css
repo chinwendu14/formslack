@@ -1,0 +1,77 @@
+/* *{
+ margin: 0;
+ padding: 0; 
+ box-sizing: border-box; 
+ background-color: rgba(0, 0, 0, 0.842);
+    
+} */
+
+
+.white{
+    background-color:rgba(255, 255, 255, 0.932);
+    /* width: 50%; */
+    margin: 0 310px;
+    height: 100%;
+}
+
+
+.box > h1{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.box{
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    margin: 0 30px;
+    background-color: white;
+}
+.pi{
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.pia{
+    color: rgba(0, 0, 0, 0.664);
+}
+input{
+    text-align: left !important;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 20px !important;
+}
+input:hover{
+    color: black !important;
+}
+input::placeholder{
+    text-align: left !important;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.534);
+    /* color: tomato; */
+}
+i{
+    color: rgba(0, 0, 0, 0.664);  
+}
+.form-group{
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.11);
+}
+
+.btnna{
+    background-color: #1EBEA5;
+    width: 88%;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 0;
+    font-weight: 600;
+}
+.btn:hover{
+    color: white;
+}
+
+.span-color{
+    color: #1EBEA5;
+}
+
+.pinput{
+    color: red;
+}
