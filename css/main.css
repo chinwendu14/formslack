@@ -75,3 +75,56 @@ i{
 .pinput{
     color: red;
 }
+
+
+
+
+@media(max-width:768px){
+    
+.white{
+    background-color:rgba(255, 255, 255, 0.932);
+    /* width: 50%; */
+    margin: 0 10px !important;
+    height: 100%;
+}
+
+
+.box > h1{
+    font-weight: 400;
+    font-size: 20px !important;
+}
+
+.box{
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+    margin: 0 6px !important;
+    background-color: white;
+}
+
+
+
+input{
+    text-align: left !important;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 5px !important;
+}
+input::placeholder{
+    text-align: left !important;
+    font-size: 12px !important;
+    color: rgba(0, 0, 0, 0.534);
+}
+.pia{
+    font-size: 14px !important;
+}
+}
+
+@media(max-width:375px){
+    i{
+        margin-top: 20px !important;
+    }
+    .btn{
+        margin: 0px !important;
+        width: 70% !important;
+    }
+}
